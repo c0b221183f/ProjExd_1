@@ -35,9 +35,9 @@ def main():
 
         # display kokaton
         if angle_mode == 0:
-            angle += 0.1
+            angle += 0.25
         else:
-            angle -= 0.1
+            angle -= 0.25
         
         if angle >= 10:
             angle_mode = 1
